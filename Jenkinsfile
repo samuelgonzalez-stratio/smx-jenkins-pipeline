@@ -19,7 +19,7 @@ pipeline {
                 echo "I'm in the second Stage."
                 doSmx() // Esta instrucción, aunque físicamente en este proyecto, está expuesta en Jenkins como biblioteca común.
                 script {
-                    echo "Sum 3 plus 2 ="
+                    echo "Sum 2 to 3 ="
                     Util ut = new Util()
                     print ut.mySumTwo(3)
                 }
